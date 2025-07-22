@@ -6,12 +6,12 @@ import 'firebase/compat/firestore';
 // PENTING: Ganti dengan konfigurasi Firebase proyek Anda sendiri.
 // Disarankan untuk menyimpan ini di environment variables (.env file).
 const firebaseConfig = {
-  apiKey: "AIzaSyDmWeqBOvrvT59cQG2JxGTJEO4Qx77_190",
-  authDomain: "evvofinance.firebaseapp.com",
-  projectId: "evvofinance",
-  storageBucket: "evvofinance.appspot.com", // FIXED!
-  messagingSenderId: "635466447322",
-  appId: "1:635466447322:web:e7259dc418ca28c04568e3"
+  apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
+  authDomain: process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN,
+  projectId: process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID,
+  storageBucket: process.env.NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: process.env.NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID,
+  appId: process.env.NEXT_PUBLIC_FIREBASE_APP_ID
 };
 
 // Inisialisasi Firebase
