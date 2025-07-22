@@ -14,6 +14,7 @@ const firebaseConfig = {
   appId: import.meta.env.VITE_FIREBASE_APP_ID
 };
 
+
 // Inisialisasi Firebase
 if (!firebase.apps.length) {
     firebase.initializeApp(firebaseConfig);
