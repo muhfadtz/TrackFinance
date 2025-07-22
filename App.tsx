@@ -1037,7 +1037,7 @@ const AppContent: FC<AppContentProps> = ({ user, profile, transactions, goals, w
     return (
         <div className="min-h-screen w-full mx-auto max-w-lg bg-light-bg dark:bg-dark-bg text-light-text-primary dark:text-dark-text-primary flex flex-col">
              <header className="px-4 pt-6 flex justify-between items-center">
-                <h1 className="text-xl font-bold text-primary tracking-wide">{activeNav === 'dashboard' ? 'evvoFinance' : ''}</h1>
+                <h1 className="text-xl font-bold text-primary tracking-wide">{activeNav === 'dashboard' ? 'savviFinance' : ''}</h1>
             </header>
             <main className="flex-1 pb-24 overflow-y-auto p-4 pt-2">
                 {renderContent()}
