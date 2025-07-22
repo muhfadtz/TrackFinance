@@ -1059,7 +1059,7 @@ const AuthPage: FC = () => {
         <div className="min-h-screen flex items-center justify-center bg-dark-bg p-4">
             <div className="max-w-md w-full space-y-6 bg-dark-surface p-8 rounded-2xl shadow-2xl">
                 <div className="text-center">
-                    <h1 className="text-2xl font-bold text-primary tracking-wider">evvoFinance</h1>
+                    <h1 className="text-2xl font-bold text-primary tracking-wider">Finance</h1>
                     <h2 className="mt-4 text-3xl font-extrabold text-dark-text-primary">{isLogin ? 'Welcome Back' : 'Create New Account'}</h2>
                     <p className="text-center text-dark-text-secondary mt-2">{isLogin ? 'Sign in to continue' : 'Start managing your finances'}</p>
                 </div>
@@ -1158,7 +1158,7 @@ const AppContent: FC<AppContentProps> = ({ user, profile, transactions, goals, w
     return (
         <div className="min-h-screen w-full mx-auto max-w-lg bg-light-bg dark:bg-dark-bg text-light-text-primary dark:text-dark-text-primary flex flex-col">
              <header className="px-4 pt-6 flex justify-between items-center">
-                <h1 className="text-xl font-bold text-primary tracking-wide">{activeNav === 'dashboard' ? 'evvoFinance' : ''}</h1>
+                <h1 className="text-xl font-bold text-primary tracking-wide">{activeNav === 'dashboard' ? 'savviFinance' : ''}</h1>
             </header>
             <main className="flex-1 pb-24 overflow-y-auto p-4 pt-2">
                 {renderContent()}
