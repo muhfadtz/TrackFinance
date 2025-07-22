@@ -1,0 +1,6 @@
+{
+  "name": "evvoFinance",
+  "description": "A comprehensive personal finance tracker to manage transactions, wallets, savings goals, and debts. Features include dashboard summaries, transaction history, goal progress tracking, and user authentication.",
+  "requestFramePermissions": [],
+  "prompt": ""
+}
