@@ -24,10 +24,10 @@ const auth = firebase.auth();
 const db = firebase.firestore();
 const googleProvider = new firebase.auth.GoogleAuthProvider();
 
-// Aktifkan offline persistence
+// Aktifkan offline persistence dengan sinkronisasi antar tab
 db.enablePersistence({ synchronizeTabs: true }).catch((err) => {
   if (err.code == 'failed-precondition') {
-    console.warn('[Firestore] Gagal mengaktifkan persistence di beberapa tab.');
+    console.warn('[Firestore] Gagal mengaktifkan persistence di beberapa tab. Data hanya akan disinkronkan di tab utama.');
   } else if (err.code == 'unimplemented') {
     console.warn('[Firestore] Browser ini tidak mendukung persistence.');
   }
