@@ -939,7 +939,7 @@ const AuthPage: FC = () => {
         <div className="min-h-screen flex items-center justify-center bg-dark-bg p-4">
             <div className="max-w-md w-full space-y-6 bg-dark-surface p-8 rounded-2xl shadow-2xl">
                 <div className="text-center">
-                    <h1 className="text-2xl font-bold text-primary tracking-wider">evvoFinance</h1>
+                    <h1 className="text-2xl font-bold text-primary tracking-wider">savviFinance</h1>
                     <h2 className="mt-4 text-3xl font-extrabold text-dark-text-primary">{isLogin ? 'Welcome Back' : 'Create New Account'}</h2>
                     <p className="text-center text-dark-text-secondary mt-2">{isLogin ? 'Sign in to continue' : 'Start managing your finances'}</p>
                 </div>
